@@ -114,10 +114,12 @@ export const Hero = () => {
                 </Button>
               </a>
 
-              <AnimatedBorderButton>
-                <Download className="h-5 w-5" />
-                Download CV
-              </AnimatedBorderButton>
+              <a href="/Aditya Boghara_Machine Learning.pdf" download>
+                <AnimatedBorderButton>
+                  <Download className="h-5 w-5" />
+                  Download Resume
+                </AnimatedBorderButton>
+              </a>
             </div>
 
             <div className="animate-fade-in animation-delay-400 flex items-center gap-4">
